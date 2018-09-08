@@ -97,6 +97,7 @@ export default {
           <Head>
             <meta charSet="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <meta name="msvalidate.01" content="52E9735EDCB03867EB7A1D46CE8F493A" />
             <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
             <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
             <title>MoovaShaka || Web Development || WebApp Development || Optimisation || Reactjs || Bespoke Web Design</title>
