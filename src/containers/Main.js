@@ -130,7 +130,7 @@ export default class Main extends React.Component {
     <div className="container-fluid">
       <div className="row no-gutter popup-gallery">
         <div className="col-lg-4 col-sm-6">
-          <a href="https://www.thelifestylementor.co.uk" target="_blank" rel="noopener noreferrer" className="portfolio-box">
+          <a href="https://blooming-tearaways.netlify.com/" target="_blank" rel="noopener noreferrer" className="portfolio-box">
             <img src="img/portfolio/thumbnails/lifestyleMentorThumb.png" className="img-responsive" alt="" />
             <div className="portfolio-box-caption">
               <div className="portfolio-box-caption-content">
