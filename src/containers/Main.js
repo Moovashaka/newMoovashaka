@@ -131,14 +131,14 @@ export default class Main extends React.Component {
       <div className="row no-gutter popup-gallery">
         <div className="col-lg-4 col-sm-6">
           <a href="https://blooming-tearaways.netlify.com/" target="_blank" rel="noopener noreferrer" className="portfolio-box">
-            <img src="img/portfolio/thumbnails/lifestyleMentorThumb.png" className="img-responsive" alt="" />
+            <img src="img/portfolio/thumbnails/bloomin.png" className="img-responsive" alt="" />
             <div className="portfolio-box-caption">
               <div className="portfolio-box-caption-content">
                 <div className="project-category text-faded">
                     Brochure Site
                 </div>
                 <div className="project-name">
-                    The LifeStyle Mentor
+                    Bloomin Tearaways
                 </div>
               </div>
             </div>
