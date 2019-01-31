@@ -6,7 +6,7 @@
   "scripts": {
     "start": "react-static start",
     "stage": "react-static build --staging",
-    "build": "react-static build",
+    "build": "react-static build && sw-precache --root=dist",
     "serve": "serve dist -p 3000"
   },
   "dependencies": {
@@ -23,7 +23,8 @@
     "react-motion": "^0.5.2",
     "react-router": "^4.2.0",
     "react-static": "^5.9.7",
-    "react-transition-group": "^2.4.0"
+    "react-transition-group": "^2.4.0",
+    "sw-precache": "^5.2.1"
   },
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",

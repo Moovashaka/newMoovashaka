@@ -154,6 +154,7 @@ export default {
             <script src="/js/creative.min.js" />
             <script src="/js/jquery.easing.min.js" />
             <script src="/vendor/bootstrap/js/bootstrap.min.js" />
+            <script src="/js/sw.js" />
           </Body>
         </Html>
       )
