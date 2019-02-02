@@ -16,23 +16,19 @@ export default class Main extends React.Component {
     return (
 <div>
   <header id="page-top">
-    <div className="header-content headerbanner">
+    <div className="header-content">
       <div className="header-content-inner">
-        <div className="d-flex">
-          <h1 id="homeHeading"> for Great mobile-first web app development</h1>
+          <h1 id="homeHeading"> Awesome Mobile-first WebApp development</h1>
           <hr />
           <p>MoovaShaka can help you build, refine &amp; define your virtual presence</p>
+          <h3 className="slide-in-left-delay2 col align-self-start">Why choose a WebApp?</h3>
+          <h3 className="slide-in-left-delay3 col align-self-center">Faster development time</h3>
+          <h3 className="slide-in-left-delay4 col align-self-end">Slash development costs</h3>
+          <h3 className="slide-in-left-delay5">Installs on Users Homescreen directly from the web</h3>
+          <hr />
           <a href="#about" className="btn btn-primary btn-xl page-scroll">Find Out More</a>
         </div>
       </div>
-    </div>
-    <div className="container">
-      {/* <div className="row"> */}
-      <div className="col-4 logo align-top">
-        <img className="mx-auto d-block" src="/img/ms_logo6.svg" alt="landing pages responsive apps" />
-      </div>
-    </div>
-    {/* </div> */}
   </header>
   <section className="bg-primary" id="about">
     <div className="d-flex text-center h-100">
