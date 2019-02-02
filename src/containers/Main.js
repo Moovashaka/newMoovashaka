@@ -21,8 +21,8 @@ export default class Main extends React.Component {
           <h1 id="homeHeading"> Awesome Mobile-first WebApp development</h1>
           <hr />
           <p>MoovaShaka can help you build, refine &amp; define your virtual presence</p>
-          <h3 className="slide-in-left-delay2 col align-self-start">Why choose a WebApp?</h3>
-          <h3 className="slide-in-left-delay3 col align-self-center">Faster development time</h3>
+          <h3 className="col align-self-start">Why choose a WebApp?</h3>
+          <h3 className="slide-in-left-delay2 col align-self-center">Faster development time</h3>
           <h3 className="slide-in-left-delay4 col align-self-end">Slash development costs</h3>
           <h3 className="slide-in-left-delay5">Installs on Users Homescreen directly from the web</h3>
           <hr />
