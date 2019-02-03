@@ -96,6 +96,15 @@ export class ContactForm extends React.Component {
   render() {
 
     return (
+      <div id="accordion" className="btn-text">
+      <div className="card">
+      <div className="card-header formaccordion" id="headingFour">
+          <button className="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+            <h3>Contact Form...<img src="img/plus.png" alt="website development"></img></h3>
+          </button>
+      </div>
+      <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+        <div className="card-body">
       <div className="text-center">
         <form name="contactForm" onSubmit={this.handleSubmit} netlify>
           <div>
@@ -160,6 +169,10 @@ export class ContactForm extends React.Component {
         <br />
         <br />
         </form>
+      </div>
+      </div>
+      </div>
+      </div>
       </div>
     );
   }

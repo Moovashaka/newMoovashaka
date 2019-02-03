@@ -18,7 +18,7 @@ export default class Main extends React.Component {
   <header id="page-top">
     <div className="header-content">
       <div className="header-content-inner">
-          <h1 id="homeHeading">Redefining the future of the web</h1>
+          <h1 id="homeHeading">Get excited about WebApps</h1>
           <hr />
           <p>MoovaShaka will help you build, refine &amp; define your virtual presence</p>
           <div id="accordion" className="btn-text accordion">
@@ -233,7 +233,7 @@ export default class Main extends React.Component {
     </div>
   </aside>
 
-  <section id="contact">
+  <section id="contact" className="contact">
     <div className="container">
       <div className="row">
         <div className="col-lg-8 col-lg-offset-2 text-center">
@@ -257,8 +257,8 @@ export default class Main extends React.Component {
         <div className="col align-items-end contactForm" />
       </div>
     </div>
-  </section>
-  <ContactForm onChange={fields => this.onChange(fields)} />
+<ContactForm onChange={fields => this.onChange(fields)} />
+</section>
 </div>
     )
   }

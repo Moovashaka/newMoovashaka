@@ -235,7 +235,15 @@ aside {
   max-width: 400px;
   margin: 50px auto 0
 }
+ .contact {
+   padding: 100px 0 0 0;
+ }
 
+ .formaccordion h3 {
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+ }
 /* Media Queries */
 @media(min-width:768px) {
   .navbar-default {
