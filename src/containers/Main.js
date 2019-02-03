@@ -18,20 +18,20 @@ export default class Main extends React.Component {
   <header id="page-top">
     <div className="header-content">
       <div className="header-content-inner">
-          <h1 id="homeHeading">Excited about Web-Apps?</h1>
+          <h1 id="homeHeading">Redefining the future of the web</h1>
           <hr />
           <p>MoovaShaka will help you build, refine &amp; define your virtual presence</p>
           <div id="accordion" className="btn-text accordion">
             <div className="card slide-in-left">
               <div className="card-header" id="headingOne">
                   <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <h3>Loads fast ....<img src="img/plus.png" alt="website development"></img></h3>
+                    <h3>Loads at lightning speed....<img src="img/plus.png" alt="website development"></img></h3>
                   </button>
               </div>
 
               <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div className="card-body">
-    <h4>Search engines love fast, make Google (and the other search engines!) happy and get rewarded with improved rankings and happier users.</h4>
+    <h4>Search engines &amp; customers love fast, make Google (and the other search engines!) happy and get rewarded with improved rankings and happier users.</h4>
                 </div>
               </div>
             </div>
