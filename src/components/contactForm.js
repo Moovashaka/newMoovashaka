@@ -98,8 +98,8 @@ export class ContactForm extends React.Component {
     return (
       <div id="accordion" className="btn-text">
       <div className="card">
-      <div className="card-header formaccordion" id="headingFour">
-          <button className="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+      <div className="card-header" id="headingFour">
+          <button className="btn btn-link formaccordion text-center" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
             <h3>Contact Form...<img src="img/plus.png" alt="website development"></img></h3>
           </button>
       </div>
