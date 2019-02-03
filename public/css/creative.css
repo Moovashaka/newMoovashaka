@@ -30,7 +30,9 @@ a:hover, a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+
+
 }
 
 p {
@@ -131,6 +133,18 @@ aside {
          transform: rotate(9deg);
 }
 
+.btn, .btn-text button, .btn-text button:hover,
+.btn-text button:visited,.btn-text button:focus  {
+  padding: 0;
+  color: #ffffff;
+  text-decoration: none;
+  font-size:12px;
+  line-height: .5;
+  /* border-bottom: 1px solid;
+  border-color: #7278a4;
+  border-radius: 0; */
+}
+
 .slide-in-left {
 	-webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -150,6 +164,10 @@ aside {
 .slide-in-left-delay5 {
 	-webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 6s both;
 	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 6s both;
+}
+.slide-in-left-delay6 {
+	-webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 8s both;
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 8s both;
 }
 
 @-webkit-keyframes slide-in-left {

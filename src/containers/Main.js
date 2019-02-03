@@ -18,13 +18,55 @@ export default class Main extends React.Component {
   <header id="page-top">
     <div className="header-content">
       <div className="header-content-inner">
-          <h1 id="homeHeading"> Awesome Mobile-first WebApp development</h1>
+          <h1 id="homeHeading">Excited about Web-Apps?</h1>
           <hr />
-          <p>MoovaShaka can help you build, refine &amp; define your virtual presence</p>
-          <h3 className="col align-self-start">Why choose a WebApp?</h3>
-          <h3 className="slide-in-left-delay2 col align-self-center">Faster development time</h3>
-          <h3 className="slide-in-left-delay4 col align-self-end">Slash development costs</h3>
-          <h3 className="slide-in-left-delay5">Installs on Users Homescreen directly from the web</h3>
+          <p>MoovaShaka will help you build, refine &amp; define your virtual presence</p>
+          <div id="accordion" className="btn-text accordion">
+            <div className="card slide-in-left">
+              <div className="card-header" id="headingOne">
+                  <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <h3>Loads fast ....<img src="img/plus.png" alt="website development"></img></h3>
+                  </button>
+              </div>
+
+              <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div className="card-body">
+    <h4>Search engines love fast, make Google (and the other search engines!) happy and get rewarded with improved rankings and happier users.</h4>
+                </div>
+              </div>
+            </div>
+            <div className="card slide-in-left-delay2">
+              <div className="card-header" id="headingTwo">
+                  <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <h3>Add to homescreen - just like a native app!...<img src="img/plus.png" alt="website development"></img></h3>
+                  </button>
+              </div>
+              <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div className="card-body">
+                  <h4>Progressive WebApps can be added to a users homescreen just like a native app - complete with splashscreen and your app's logo.
+                   And with users increasingly turning away from the App Stores* native apps due to slow download times and memory hogging. A WebApp
+                  could be the perfect solution for you and your customers.</h4>
+                </div>
+              </div>
+            </div>
+            <div className="card slide-in-left-delay4">
+              <div className="card-header" id="headingThree">
+                  <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <h3>Works offline...<img src="img/plus.png" alt="website development"></img></h3>
+                  </button>
+            </div>
+              <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div className="card-body">
+                  <h4>Your WebApp will update behind the scenes automagically as and when the user has an internet connection,
+                  but will work just fine with the data it has in the meantime, meaning users on a 3g connection, older handset
+                  or with an intermittant connection won't feel frustrated by the experience.</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
           <hr />
           <a href="#about" className="btn btn-primary btn-xl page-scroll">Find Out More</a>
         </div>
@@ -62,10 +104,12 @@ export default class Main extends React.Component {
         <div className="card-body">
         <span className="card-text">and present back your finished design, ready to host wherever you wish, or talk to us about hosting.</span>
         </div>
-        </div>
       </div>
     </div>
-      </div>
+  </div>
+</div>
+
+
       <hr className="light" />
       <div className="container">
         <div className="row">
@@ -77,7 +121,7 @@ export default class Main extends React.Component {
         </div>
       </div>
     </div>
-  </section>
+    </section>
 
   <section id="services">
     <div className="container">
