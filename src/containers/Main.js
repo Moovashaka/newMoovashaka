@@ -18,14 +18,14 @@ export default class Main extends React.Component {
   <header id="page-top">
     <div className="header-content">
       <div className="header-content-inner">
-          <h1 id="homeHeading">Get excited about WebApps</h1>
+          <h1 id="homeHeading"> excited about WebApps?</h1>
           <hr />
           <p>MoovaShaka will help you build, refine &amp; define your virtual presence</p>
           <div id="accordion" className="btn-text accordion">
             <div className="card slide-in-left">
               <div className="card-header" id="headingOne">
                   <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <h3>Loads at lightning speed....<img src="img/plus.png" alt="website development"></img></h3>
+                    <h3>fast to screen....<img src="img/plus.png" alt="website development"></img></h3>
                   </button>
               </div>
 
@@ -38,7 +38,7 @@ export default class Main extends React.Component {
             <div className="card slide-in-left-delay2">
               <div className="card-header" id="headingTwo">
                   <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <h3>Add to homescreen - just like a native app!...<img src="img/plus.png" alt="website development"></img></h3>
+                    <h3>fast to develop...<img src="img/plus.png" alt="website development"></img></h3>
                   </button>
               </div>
               <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -52,14 +52,14 @@ export default class Main extends React.Component {
             <div className="card slide-in-left-delay4">
               <div className="card-header" id="headingThree">
                   <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <h3>Works offline...<img src="img/plus.png" alt="website development"></img></h3>
+                    <h3>mobile first...<img src="img/plus.png" alt="website development"></img></h3>
                   </button>
             </div>
               <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                 <div className="card-body">
-                  <h4>Your WebApp will update behind the scenes automagically as and when the user has an internet connection,
-                  but will work just fine with the data it has in the meantime, meaning users on a 3g connection, older handset
-                  or with an intermittant connection won't feel frustrated by the experience.</h4>
+                  <h4>Starting with a mobile-first ethos means thinking about what your sites experience is like for somebody on 3g
+                  , older handset or intermittant connection and working up. Making your WebApp work well for these users guarantees a great experience for all our users.   
+                  </h4>
                 </div>
               </div>
             </div>

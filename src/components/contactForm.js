@@ -96,11 +96,11 @@ export class ContactForm extends React.Component {
   render() {
 
     return (
-      <div id="accordion" className="btn-text">
+      <div id="accordion" className="btn-text text-center">
       <div className="card">
       <div className="card-header" id="headingFour">
           <button className="btn btn-link formaccordion text-center" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-            <h3>Contact Form...<img src="img/plus.png" alt="website development"></img></h3>
+            <h3>click here for Contact Form...<img src="img/plus.png" alt="website development"></img></h3>
           </button>
       </div>
       <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
