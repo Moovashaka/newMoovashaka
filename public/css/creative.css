@@ -195,6 +195,21 @@ aside {
   }
 }
 
+.animate-pop-in {
+  animation: pop-in 1s ease-out forwards;
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+  transform: translateY(-6rem) scale(.6);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+    }
+  }
+
 .thumbcontainer {
   width:200px;
   height: 120px;
@@ -294,7 +309,7 @@ header {
   background-size: auto auto;
   -o-background-size: auto auto;
   background-position: auto auto;
-  background-image: url('../img/darkstarbackground1.svg');
+  background-image: url('../img/darkstarbackground1.jpg');
   background-repeat:  no-repeat;
   text-align: center;
   color: white

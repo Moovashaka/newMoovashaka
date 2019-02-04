@@ -18,7 +18,7 @@ export default class Main extends React.Component {
   <header id="page-top">
     <div className="header-content">
       <div className="header-content-inner">
-          <h1 id="homeHeading"> excited about WebApps?</h1>
+          <h1 id="homeHeading" className="animate-pop-in"> excited about WebApps?</h1>
           <hr />
           <p>MoovaShaka will help you build, refine &amp; define your virtual presence</p>
           <div id="accordion" className="btn-text accordion">
@@ -58,7 +58,7 @@ export default class Main extends React.Component {
               <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                 <div className="card-body">
                   <h4>Starting with a mobile-first ethos means thinking about what your sites experience is like for somebody on 3g
-                  , older handset or intermittant connection and working up. Making your WebApp work well for these users guarantees a great experience for all our users.   
+                  , older handset or intermittant connection and working up. Making your WebApp work well for these users guarantees a great experience for all our users.
                   </h4>
                 </div>
               </div>
@@ -171,7 +171,7 @@ export default class Main extends React.Component {
       <div className="row no-gutter popup-gallery">
         <div className="col-lg-4 col-sm-6">
           <a href="https://blooming-tearaways.netlify.com/" target="_blank" rel="noopener noreferrer" className="portfolio-box">
-            <img src="img/portfolio/thumbnails/bloomin.png" className="img-responsive" alt="" />
+            <img src="img/portfolio/thumbnails/bloomin.jpg" className="img-responsive" alt="" />
             <div className="portfolio-box-caption">
               <div className="portfolio-box-caption-content">
                 <div className="project-category text-faded">
