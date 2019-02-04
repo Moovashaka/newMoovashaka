@@ -309,7 +309,7 @@ header {
   background-size: auto auto;
   -o-background-size: auto auto;
   background-position: auto auto;
-  background-image: url('../img/darkstarbackground1.jpg');
+  background-image: url('../img/darkstarbackground1.webp'),url('../img/darkstarbackground1.jpg');
   background-repeat:  no-repeat;
   text-align: center;
   color: white

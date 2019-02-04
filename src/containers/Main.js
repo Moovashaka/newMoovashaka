@@ -44,7 +44,7 @@ export default class Main extends React.Component {
               <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                 <div className="card-body">
                   <h4>Progressive WebApps can be added to a users homescreen just like a native app - complete with splashscreen and your app's logo.
-                   And with users increasingly turning away from the App Stores* native apps due to slow download times and memory hogging. A WebApp
+                   With users increasingly rejecting native apps due to slow download times and memory hogging. A WebApp
                   could be the perfect solution for you and your customers.</h4>
                 </div>
               </div>
