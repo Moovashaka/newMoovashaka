@@ -1,6 +1,6 @@
 import React from 'react'
 import { ContactForm } from '../components/contactForm.js'
-// import { Fade } from '../components/fade.js'
+
 
 
 export default class Main extends React.Component {
@@ -28,7 +28,6 @@ export default class Main extends React.Component {
                     <h3>fast to screen....<img src="img/plus.png" alt="website development"></img></h3>
                   </button>
               </div>
-
               <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div className="card-body">
     <h4>Search engines &amp; customers love fast, make Google (and the other search engines!) happy and get rewarded with improved rankings and happier users.</h4>
@@ -64,9 +63,6 @@ export default class Main extends React.Component {
               </div>
             </div>
           </div>
-
-
-
           <hr />
           <a href="#about" className="btn btn-primary btn-xl page-scroll">Find Out More</a>
         </div>
@@ -108,8 +104,6 @@ export default class Main extends React.Component {
     </div>
   </div>
 </div>
-
-
       <hr className="light" />
       <div className="container">
         <div className="row">
@@ -122,7 +116,6 @@ export default class Main extends React.Component {
       </div>
     </div>
     </section>
-
   <section id="services">
     <div className="container">
       <div className="row">
@@ -165,7 +158,6 @@ export default class Main extends React.Component {
       </div>
     </div>
   </section>
-
   <section className="no-padding" id="portfolio">
     <div className="container-fluid">
       <div className="row no-gutter popup-gallery">
@@ -217,7 +209,6 @@ export default class Main extends React.Component {
       </div>
     </div>
   </section>
-
   <aside className="bg-dark">
     <div className="container text-center">
       <div className="call-to-action">
@@ -232,13 +223,12 @@ export default class Main extends React.Component {
       </div>
     </div>
   </aside>
-
   <section id="contact" className="contact">
     <div className="container">
       <div className="row">
         <div className="col-lg-8 col-lg-offset-2 text-center">
           <h2 className="section-heading">Let's Get In Touch</h2>
-          <hr classNameName="primary" />
+          <hr className="primary" />
             <p>Ready to start your next project with us? That's great! Give us a call or drop us mail and we will get back to you as soon as possible.</p>
         </div>
         <div className="col-lg-4 col-lg-offset-2 text-center">
