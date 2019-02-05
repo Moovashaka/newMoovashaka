@@ -8,7 +8,7 @@ export default class Footer extends React.Component {
           <div className="row">
             <div className="col socialtwit">
               <a href="https://twitter.com/Moova_Shaka">
-              <i className="fa fa-twitter-square fa-2x"></i>
+                <i className="fa fa-twitter-square fa-2x"></i>
               </a>
             </div>
             <div className="col socialinsta">
