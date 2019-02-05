@@ -175,6 +175,7 @@ export default class Main extends React.Component {
         <div className="col-lg-4 col-sm-6">
           <a href="https://blooming-tearaways.netlify.com/" target="_blank" rel="noopener noreferrer" className="portfolio-box">
           <picture>
+          <source className="img-responsive" srcset="/img/portfolio/thumbnails/bloomin.webp" type="image/webp" />
           <source className="img-responsive" srcset="/img/portfolio/thumbnails/bloomin.jpg" type="image/jpg" />
           <img src="img/portfolio/thumbnails/bloomin.jpg" className="img-responsive" alt="dynamic responsive web development" />
           </picture>
@@ -193,6 +194,7 @@ export default class Main extends React.Component {
         <div className="col-lg-4 col-sm-6">
           <a href="https://autoview.netlify.com/" target="_blank" rel="noopener noreferrer" className="portfolio-box">
           <picture>
+          <source className="img-responsive" srcset="/img/portfolio/thumbnails/aviewth.webp" type="image/webp" />
           <source className="img-responsive" srcset="/img/portfolio/thumbnails/aviewth.png" type="image/png" />
           <img src="img/portfolio/thumbnails/aviewth.png" className="img-responsive" alt="web development liverpool" />
           </picture>
@@ -211,6 +213,7 @@ export default class Main extends React.Component {
         <div className="col-lg-4 col-sm-6">
           <a href="http://www.ribblevalleytyreandautoservices.co.uk" target="_blank" rel="noopener noreferrer" className="portfolio-box">
           <picture>
+          <source className="img-responsive" srcset="/img/portfolio/thumbnails/rvtathumb.webp" type="image/webp" />
           <source className="img-responsive" srcset="/img/portfolio/thumbnails/rvtathumb.png" type="image/png" />
           <img src="img/portfolio/thumbnails/rvtathumb.png" className="img-responsive" alt="responsive web design preston lancashire" />
           </picture>
