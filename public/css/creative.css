@@ -320,7 +320,7 @@ aside {
   }
 }
 
-header .webp {
+  header  {
   position: relative;
   width: 100%;
   /* min-height: auto; */
@@ -330,19 +330,6 @@ header .webp {
   -o-background-size: auto auto;
   background-position: auto auto;
   background-image: url('../img/darkstarbackground1.webp');
-  background-repeat:  no-repeat;
-  text-align: center;
-  color: white
-}
-header .no-webp {
-  position: relative;
-  width: 100%;
-  /* min-height: auto; */
-  -webkit-background-size: auto auto;
-  -moz-background-size:auto auto;
-  background-size: auto auto;
-  -o-background-size: auto auto;
-  background-position: auto auto;
   background-image: url('../img/darkstarbackground1.jpg');
   background-repeat:  no-repeat;
   text-align: center;

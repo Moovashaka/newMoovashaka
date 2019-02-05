@@ -12,6 +12,7 @@ export default class Main extends React.Component {
       ...this.state.fields,
       ...updatedValue }});
   }
+
   render () {
     return (
 <div>
