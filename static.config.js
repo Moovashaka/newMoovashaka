@@ -155,6 +155,7 @@ export default {
             <script src="/js/jquery.easing.min.js" />
             <script src="/vendor/bootstrap/js/bootstrap.min.js" />
             <script src="/js/sw.js" />
+            <script src="/js/modernizer.js" />
           </Body>
         </Html>
       )
