@@ -151,7 +151,7 @@ export default {
               <textarea name="message" />
             </form>
             <script src="/vendor/jquery/jquery.min.js" />
-            <script src="/js/creative.min.js" />
+            <script src="/js/creative.js" />
             <script src="/js/jquery.easing.min.js" />
             <script src="/vendor/bootstrap/js/bootstrap.min.js" />
             <script src="/js/sw.js" />

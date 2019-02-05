@@ -80,7 +80,10 @@ export default class Main extends React.Component {
         <div className="container">
         <div className="img-responsive col-sm-4 aboutcontainer">
         <div className="card">
-        <img className="card-img-top" src="/img/mockwhite2.svg" alt="Card image cap" />
+        <picture>
+        <source className="card-img-top" srcset="/img/mockwhite2.svg" type="image/svg" />
+        <img className="card-img-top" src="/img/mockwhite2.svg" alt="profitable web development" />
+        </picture>
         <div className="card-body">
         <span className="card-text">Send your design, idea, mock-up, sketch, PDF, napkin, whatever.....</span>
         </div>
@@ -88,7 +91,11 @@ export default class Main extends React.Component {
       </div>
       <div className="img-responsive col-sm-4 aboutcontainer">
         <div className="card">
-        <img className="card-img-top" src="/img/text_editor.png" alt="Card image cap" />
+        <picture>
+        <source className="card-img-top" srcset="/img/text_editor.webp" type="image/webp" />
+        <source className="card-img-top" srcset="/img/text_editor.png" type="image/png" />
+        <img className="card-img-top" src="/img/text_editor.png" alt="web develepment landing pages blog" />
+        </picture>
         <div className="card-body">
         <span className="card-text">We'll turn it into code.....</span>
         </div>
@@ -96,7 +103,11 @@ export default class Main extends React.Component {
       </div>
       <div className="img-responsive col-sm-4 aboutcontainer">
         <div className="card">
-        <img className="card-img-top" src="/img/blog.png" alt="Card image cap" />
+        <picture>
+        <source className="card-img-top" srcset="/img/blog.webp" type="image/webp" />
+        <source className="card-img-top" srcset="/img/blog.png" type="image/png" />
+        <img className="card-img-top" src="/img/blog.png" alt="rapid website development" />
+        </picture>
         <div className="card-body">
         <span className="card-text">and present back your finished design, ready to host wherever you wish, or talk to us about hosting.</span>
         </div>
@@ -163,7 +174,10 @@ export default class Main extends React.Component {
       <div className="row no-gutter popup-gallery">
         <div className="col-lg-4 col-sm-6">
           <a href="https://blooming-tearaways.netlify.com/" target="_blank" rel="noopener noreferrer" className="portfolio-box">
-            <img src="img/portfolio/thumbnails/bloomin.jpg" className="img-responsive" alt="" />
+          <picture>
+          <source className="img-responsive" srcset="/img/portfolio/thumbnails/bloomin.jpg" type="image/jpg" />
+          <img src="img/portfolio/thumbnails/bloomin.jpg" className="img-responsive" alt="dynamic responsive web development" />
+          </picture>
             <div className="portfolio-box-caption">
               <div className="portfolio-box-caption-content">
                 <div className="project-category text-faded">
@@ -178,7 +192,10 @@ export default class Main extends React.Component {
         </div>
         <div className="col-lg-4 col-sm-6">
           <a href="https://autoview.netlify.com/" target="_blank" rel="noopener noreferrer" className="portfolio-box">
-            <img src="img/portfolio/thumbnails/aviewth.png" className="img-responsive" alt="" />
+          <picture>
+          <source className="img-responsive" srcset="/img/portfolio/thumbnails/aviewth.png" type="image/png" />
+          <img src="img/portfolio/thumbnails/aviewth.png" className="img-responsive" alt="web development liverpool" />
+          </picture>
             <div className="portfolio-box-caption">
               <div className="portfolio-box-caption-content">
                 <div className="project-category text-faded">
@@ -193,7 +210,10 @@ export default class Main extends React.Component {
         </div>
         <div className="col-lg-4 col-sm-6">
           <a href="http://www.ribblevalleytyreandautoservices.co.uk" target="_blank" rel="noopener noreferrer" className="portfolio-box">
-            <img src="img/portfolio/thumbnails/rvtathumb.png" className="img-responsive" alt="" />
+          <picture>
+          <source className="img-responsive" srcset="/img/portfolio/thumbnails/rvtathumb.png" type="image/png" />
+          <img src="img/portfolio/thumbnails/rvtathumb.png" className="img-responsive" alt="responsive web design preston lancashire" />
+          </picture>
             <div className="portfolio-box-caption">
               <div className="portfolio-box-caption-content">
                 <div className="project-category text-faded">
@@ -218,7 +238,11 @@ export default class Main extends React.Component {
         and business ambitions. Leave your contact info and a convenient time to talk,
         pour a coffee and together we can turn your vision into reality.
         </p>
-        <img src="img/logobanner.png" className="img-responsive" alt="" />
+        <picture>
+        <source className="img-responsive" srcset="/img/logobanner.webp" type="image/webp" />
+        <source className="img-responsive" srcset="img/logobanner.png" type="image/png" />
+        <img src="img/logobanner.png" className="img-responsive" alt="search engine optimisation and domain names" />
+        </picture>
         <a href="#contact" className="page-scroll btn btn-default btn-xl sr-button">Talk to us Now!</a>
       </div>
     </div>
