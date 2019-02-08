@@ -113,6 +113,7 @@ export default {
             <link href="/css/creative.css" rel="stylesheet" />
             {/* Additional CSS goes here */}
             <link href="/css/form.min.css" rel="stylesheet" />
+            <link href="/css/stars.css" rel="stylesheet" />
           </Head>
           <Body>
             {children}

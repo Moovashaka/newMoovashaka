@@ -16,8 +16,13 @@ export default class Main extends React.Component {
   render () {
     return (
 <div>
-  <header id="page-top">
-    <div className="header-content">
+  <header className="starHeader" id="page-top">
+  <div>
+  <div id="stars"></div>
+  {/*<div id="stars2"></div>
+  <div id="stars3"></div>*/}
+  </div>
+      <div className="header-content">
       <div className="header-content-inner">
           <h1 id="homeHeading" className="animate-pop-in"> excited about WebApps?</h1>
           <hr />
@@ -31,7 +36,7 @@ export default class Main extends React.Component {
               </div>
               <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div className="card-body">
-    <h4>Search engines &amp; customers love fast, make Google (and the other search engines!) happy and get rewarded with improved rankings and happier users.</h4>
+    <h4>Search engines &amp; customers love fast. Make Google (and the other search engines!) happy and get rewarded with improved rankings and satisfied users.</h4>
                 </div>
               </div>
             </div>
@@ -43,8 +48,8 @@ export default class Main extends React.Component {
               </div>
               <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                 <div className="card-body">
-                  <h4>Progressive WebApps can be added to a users homescreen just like a native app - complete with splashscreen and your app's logo.
-                   With users increasingly rejecting native apps due to slow download times and memory hogging. A WebApp
+                  <h4>Progressive WebApps can be added to a user's homescreen just like a native app - complete with splashscreen and your app's logo.
+                   With users increasingly rejecting native apps due to slow download times and memory hogging, a WebApp
                   could be the perfect solution for you and your customers.</h4>
                 </div>
               </div>
@@ -57,8 +62,8 @@ export default class Main extends React.Component {
             </div>
               <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                 <div className="card-body">
-                  <h4>Starting with a mobile-first ethos means thinking about what your sites experience is like for somebody on 3g
-                  , older handset or intermittant connection and working up. Making your WebApp work well for these users guarantees a great experience for all our users.
+                  <h4>A mobile-first ethos means thinking about what your site's experience is like for somebody on 3g
+                  , an older handset or an intermittant connection and working up. A mobile-first WebApp guarantees a great experience across all platforms.
                   </h4>
                 </div>
               </div>

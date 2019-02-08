@@ -323,17 +323,22 @@ aside {
   header  {
   position: relative;
   width: 100%;
-  /* min-height: auto; */
+  max-height: auto;
   -webkit-background-size: auto auto;
   -moz-background-size:auto auto;
   background-size: auto auto;
   -o-background-size: auto auto;
   background-position: auto auto;
-  background-image: url('../img/darkstarbackground1.webp');
-  background-image: url('../img/darkstarbackground1.jpg');
+  /* background-image: url('../img/darkstarbackground1.webp');
+  background-image: url('../img/darkstarbackground1.jpg'); */
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   background-repeat:  no-repeat;
   text-align: center;
-  color: white
+  color: #fff;
+  padding-bottom:: 0px;
+
+
+
 }
 
 header .header-content {
