@@ -259,11 +259,13 @@ export default class Main extends React.Component {
         and business ambitions. Leave your contact info and a convenient time to talk,
         pour a coffee and together we can turn your vision into reality.
         </p>
+        <LazyLoad offset={1000}>
         <picture>
         <source className="img-responsive" srcset="/img/logobanner.webp" type="image/webp" />
         <source className="img-responsive" srcset="img/logobanner.png" type="image/png" />
         <img src="img/logobanner.png" className="img-responsive" alt="search engine optimisation and domain names" />
         </picture>
+        </LazyLoad>
         <a href="#contact" className="page-scroll btn btn-default btn-xl sr-button">Talk to us Now!</a>
       </div>
     </div>
