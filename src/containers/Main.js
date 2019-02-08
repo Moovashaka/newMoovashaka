@@ -1,6 +1,6 @@
 import React from 'react'
 import { ContactForm } from '../components/contactForm.js'
-
+import LazyLoad from 'react-lazy-load';
 
 
 export default class Main extends React.Component {
@@ -31,7 +31,7 @@ export default class Main extends React.Component {
             <div className="card slide-in-left">
               <div className="card-header" id="headingOne">
                   <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <h3>fast to screen &nbsp;  ... <img src="img/plus.png" alt="website development"></img></h3>
+                    <h3>fast to screen &nbsp;... <img src="img/plus.png" alt="website development"></img></h3>
                   </button>
               </div>
               <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
@@ -57,7 +57,7 @@ export default class Main extends React.Component {
             <div className="card slide-in-left-delay4">
               <div className="card-header" id="headingThree">
                   <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <h3>mobile first &nbsp; &nbsp; &nbsp; ... <img src="img/plus.png" alt="website development"></img></h3>
+                    <h3>mobile first ... &nbsp; &nbsp; &nbsp;<img src="img/plus.png" alt="website development"></img></h3>
                   </button>
             </div>
               <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
@@ -86,10 +86,12 @@ export default class Main extends React.Component {
         <div className="container">
         <div className="img-responsive col-sm-4 aboutcontainer">
         <div className="card">
+        <LazyLoad offset={100}>
         <picture>
         <source className="card-img-top" srcset="/img/mockwhite2.svg" type="image/svg" />
         <img className="card-img-top" src="/img/mockwhite2.svg" alt="profitable web development" />
         </picture>
+        </LazyLoad>
         <div className="card-body">
         <span className="card-text">Send your design, idea, mock-up, sketch, PDF, napkin, whatever.....</span>
         </div>
@@ -97,11 +99,13 @@ export default class Main extends React.Component {
       </div>
       <div className="img-responsive col-sm-4 aboutcontainer">
         <div className="card">
+        <LazyLoad offset={100}>
         <picture>
         <source className="card-img-top" srcset="/img/text_editor.webp" type="image/webp" />
         <source className="card-img-top" srcset="/img/text_editor.png" type="image/png" />
         <img className="card-img-top" src="/img/text_editor.png" alt="web develepment landing pages blog" />
         </picture>
+        </LazyLoad>
         <div className="card-body">
         <span className="card-text">We'll turn it into code.....</span>
         </div>
@@ -109,11 +113,13 @@ export default class Main extends React.Component {
       </div>
       <div className="img-responsive col-sm-4 aboutcontainer">
         <div className="card">
+        <LazyLoad offset={100}>
         <picture>
         <source className="card-img-top" srcset="/img/blog.webp" type="image/webp" />
         <source className="card-img-top" srcset="/img/blog.png" type="image/png" />
         <img className="card-img-top" src="/img/blog.png" alt="rapid website development" />
         </picture>
+        </LazyLoad>
         <div className="card-body">
         <span className="card-text">and present back your finished design, ready to host wherever you wish, or talk to us about hosting.</span>
         </div>
@@ -180,11 +186,13 @@ export default class Main extends React.Component {
       <div className="row no-gutter popup-gallery">
         <div className="col-lg-4 col-sm-6">
           <a href="https://blooming-tearaways.netlify.com/" target="_blank" rel="noopener noreferrer" className="portfolio-box">
+          <LazyLoad offset={500}>
           <picture>
           <source className="img-responsive" srcset="/img/portfolio/thumbnails/bloomin.webp" type="image/webp" />
           <source className="img-responsive" srcset="/img/portfolio/thumbnails/bloomin.jpg" type="image/jpg" />
           <img src="img/portfolio/thumbnails/bloomin.jpg" className="img-responsive" alt="dynamic responsive web development" />
           </picture>
+          </LazyLoad>
             <div className="portfolio-box-caption">
               <div className="portfolio-box-caption-content">
                 <div className="project-category text-faded">
@@ -199,11 +207,13 @@ export default class Main extends React.Component {
         </div>
         <div className="col-lg-4 col-sm-6">
           <a href="https://autoview.netlify.com/" target="_blank" rel="noopener noreferrer" className="portfolio-box">
+          <LazyLoad offset={500}>
           <picture>
           <source className="img-responsive" srcset="/img/portfolio/thumbnails/aviewth.webp" type="image/webp" />
           <source className="img-responsive" srcset="/img/portfolio/thumbnails/aviewth.png" type="image/png" />
           <img src="img/portfolio/thumbnails/aviewth.png" className="img-responsive" alt="web development liverpool" />
           </picture>
+          </LazyLoad>
             <div className="portfolio-box-caption">
               <div className="portfolio-box-caption-content">
                 <div className="project-category text-faded">
@@ -218,11 +228,13 @@ export default class Main extends React.Component {
         </div>
         <div className="col-lg-4 col-sm-6">
           <a href="http://www.ribblevalleytyreandautoservices.co.uk" target="_blank" rel="noopener noreferrer" className="portfolio-box">
+          <LazyLoad offset={500}>
           <picture>
           <source className="img-responsive" srcset="/img/portfolio/thumbnails/rvtathumb.webp" type="image/webp" />
           <source className="img-responsive" srcset="/img/portfolio/thumbnails/rvtathumb.png" type="image/png" />
           <img src="img/portfolio/thumbnails/rvtathumb.png" className="img-responsive" alt="responsive web design preston lancashire" />
           </picture>
+          </LazyLoad>
             <div className="portfolio-box-caption">
               <div className="portfolio-box-caption-content">
                 <div className="project-category text-faded">
