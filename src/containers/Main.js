@@ -19,8 +19,8 @@ export default class Main extends React.Component {
   <header className="starHeader" id="page-top">
   <div>
   <div id="stars"></div>
-  {/*<div id="stars2"></div>
-  <div id="stars3"></div>*/}
+  <div id="stars2"></div>
+  <div id="stars3"></div>
   </div>
       <div className="header-content">
       <div className="header-content-inner">
