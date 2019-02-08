@@ -31,7 +31,7 @@ export default class Main extends React.Component {
             <div className="card slide-in-left">
               <div className="card-header" id="headingOne">
                   <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <h3>fast to screen....<img src="img/plus.png" alt="website development"></img></h3>
+                    <h3>fast to screen &nbsp;  ... <img src="img/plus.png" alt="website development"></img></h3>
                   </button>
               </div>
               <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
@@ -43,7 +43,7 @@ export default class Main extends React.Component {
             <div className="card slide-in-left-delay2">
               <div className="card-header" id="headingTwo">
                   <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <h3>fast to develop...<img src="img/plus.png" alt="website development"></img></h3>
+                    <h3>fast to develop... <img src="img/plus.png" alt="website development"></img></h3>
                   </button>
               </div>
               <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -57,7 +57,7 @@ export default class Main extends React.Component {
             <div className="card slide-in-left-delay4">
               <div className="card-header" id="headingThree">
                   <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <h3>mobile first...<img src="img/plus.png" alt="website development"></img></h3>
+                    <h3>mobile first &nbsp; &nbsp; &nbsp; ... <img src="img/plus.png" alt="website development"></img></h3>
                   </button>
             </div>
               <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">

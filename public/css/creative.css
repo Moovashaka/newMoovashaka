@@ -345,7 +345,10 @@ header .header-content {
   position: relative;
   text-align: center;
   padding: 110px 15px 100px;
-  width: 100%
+  width: 100%;
+  /* background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 header .header-content .header-content-inner h1 {
