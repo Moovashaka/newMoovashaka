@@ -43,7 +43,7 @@ export default class Main extends React.Component {
             <div className="card slide-in-left-delay2">
               <div className="card-header" id="headingTwo">
                   <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <h3>fast to develop... <img src="img/plus.png" alt="website development"></img></h3>
+                    <h3>fast to develop..&nbsp;<img src="img/plus.png" alt="website development"></img></h3>
                   </button>
               </div>
               <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
