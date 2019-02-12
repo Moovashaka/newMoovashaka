@@ -25,9 +25,10 @@ export default class Footer extends React.Component {
           <hr />
         </div>
        <div className="text-center">
-        <p>&copy;MoovaShaka {(new Date().getFullYear())}</p>
+        <h4>&copy;MoovaShaka {(new Date().getFullYear())}</h4>
+          <hr />
+        <a href="/privacy"><h5 className="text-muted">Privacy Policy</h5></a>
       </div>
-      <hr />
       </div>
     )
   }

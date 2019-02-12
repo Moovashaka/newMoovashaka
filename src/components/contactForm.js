@@ -13,7 +13,7 @@ export class ContactForm extends React.Component {
       inputCompany: '',
       select: 'other',
       message: '',
-      formSent: '',
+      formSent: ''
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -41,7 +41,7 @@ export class ContactForm extends React.Component {
     }
 
     if (isError) {
-      this.setState(errors)
+      this.setState(errors);
       errors.formSent = ('Please check the form for errors');
       };
 
@@ -51,9 +51,8 @@ export class ContactForm extends React.Component {
   handleSubmit = e => {
       e.preventDefault();
       const err = this.validate();
-
       if (!err) {
-        const encode = (data) => {
+          const encode = (data) => {
           return Object.keys(data)
           .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
           .join("&");

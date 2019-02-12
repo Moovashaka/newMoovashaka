@@ -84,9 +84,8 @@ input[type="submit"] {
   text-shadow: 0 1px #f4f7f7
 }
 
-button[type="submit"] {
+button[type="submit"]{
   background: #7278a4;
-  /* box-shadow: 0 3px 0 0 #5f6278; */
   border-radius: 5px;
   border: 0;
   color: #fff;
@@ -94,8 +93,7 @@ button[type="submit"] {
   line-height: 1.6em;
   margin: ;
   outline: 0;
-  padding: 6px 16px;
-  text-shadow: 0 1px #f4f7f7
+  padding: 6px 20px;
 }
 
 button[type="submit"]:hover {
@@ -108,11 +106,11 @@ button[type="submit"]:hover {
   margin: ;
   outline: 0;
   padding: 6px 20px;
+  text-shadow: 0 1px #f4f7f7
 }
 
 button[type="submit"]:active {
   background: #7278a4;
-  /* box-shadow: 0 3px 0 0 #5f6278; */
   border-radius: 5px;
   border: 0;
   color: #fff;
@@ -120,7 +118,20 @@ button[type="submit"]:active {
   line-height: 1.6em;
   margin: ;
   outline: 0;
-  padding: 6px 16px;
+  padding: 6px 20px;
+  text-shadow: 0 1px #f4f7f7
+}
+
+button[type="submit"]:visited {
+  background: #7278a4;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  line-height: 1.6em;
+  margin: ;
+  outline: 0;
+  padding: 6px 20px;
   text-shadow: 0 1px #f4f7f7
 }
 
