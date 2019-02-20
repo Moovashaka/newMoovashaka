@@ -12,7 +12,7 @@ export default withRouteData(({ posts }) => (
     </div>
     <section>
       <div className="container">
-        <div className="col">
+        <div className="col-sm-4 col-md-4">
             {posts.map(post => (
                   <div className="thumbcontainer">
                     <ul>
