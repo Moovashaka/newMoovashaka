@@ -13,12 +13,11 @@ export default withRouteData(({ posts }) => (
     <section className="blog-post container h-100 align-items-center">
       <div className="row h-100 justify-content-center align-items-center">
         <div className="col-sm-4">
-          <h3>Posts:</h3>
           <div>
             <ul>
               <h3>
                 {posts.map(post => (
-                  <div className="thumbcontainer">
+                  <div className="thumbcontainer img-fluid">
                     <ul>
                       <li key={post.data.slug}>
                         <Link to={`/blog/post/${post.data.slug}`}><h3>{post.data.title}</h3></Link> {/* link to Post title */}
@@ -32,7 +31,7 @@ export default withRouteData(({ posts }) => (
           </div>
         </div> {/* End Col */}
         <div className="col-sm-8">
-          <h1>This is our Blog</h1>
+          <h1 className="text-center">News &amp; Articles</h1>
           <hr />
           <p className="pt-md-4 pt-lg-4">
             This is a place for latest news and trends, where we like to keep customers old & new informed of trends within the ever

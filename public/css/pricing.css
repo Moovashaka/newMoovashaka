@@ -1,0 +1,53 @@
+.Mybanner{
+text-align: center;
+margin: 20px;
+font-family: 'Francois One', sans-serif;
+font-size: 35px;
+}
+
+.head_table{
+background-color: #27ae60;
+text-align: center;
+height: 60px;
+width: 100%;
+color: white;
+
+}
+.head_table h3{
+font-family: 'open-sans', sans-serif;
+padding-top: 5px;
+font-weight: 500;
+font-size: 40px;
+}
+
+.price{
+font-size: 200%;
+padding-top: 10px;
+padding-bottom: 30px;
+text-align: center;
+}
+.ok{
+color: green;
+margin-right: 10px;
+font-size: 150%;
+}
+.No{
+color: red;
+margin-right: 10px;
+font-size: 150%;
+
+}
+.Mybutton{
+width: 80%;
+
+margin:10%;
+font-family: 'Quicksand', sans-serif;
+}
+.remove:hover{
+text-decoration: line-through;
+}
+.Mytable{
+border: 2px solid #27ae60;
+border-radius: 5px;
+margin: 15px;
+}

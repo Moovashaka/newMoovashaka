@@ -60,7 +60,7 @@ export default {
       },
       {
         path: '/about',
-        component: 'src/containers/About',
+        component: 'src/containers/Aboutus',
       },
       {
         path: '/privacy',
@@ -106,7 +106,7 @@ export default {
             <link rel="shortcut icon" href="/favicon.ico" />
             <title>MoovaShaka || Web Development || WebApp Development || Optimisation || Reactjs || Bespoke Web Design</title>
             {/* Bootstrap Core CSS */}
-            <link href="/vendor/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+            <link href="/vendor/bootstrap/css/trimbootstrap.min.css" rel="stylesheet" type="text/css" />
             {/* Custom Fonts */}
             <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
             <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
@@ -118,6 +118,7 @@ export default {
             {/* Additional CSS goes here */}
             <link href="/css/form.css" rel="stylesheet" />
             <link href="/css/stars.min.css" rel="stylesheet" />
+            <link href="/css/pricing.css" rel="stylesheet" />
           </Head>
           <Body>
             {children}

@@ -6,7 +6,7 @@ import { Route } from 'react-router-dom'
 import { cleanPath } from 'react-static'
 
 import t_0 from '../../src/containers/Home'
-import t_1 from '../../src/containers/About'
+import t_1 from '../../src/containers/Aboutus'
 import t_2 from '../../src/containers/privacy'
 import t_3 from '../../src/containers/Blog'
 import t_4 from '../../src/containers/Post'

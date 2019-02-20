@@ -1,6 +1,7 @@
 import React from 'react'
 import { ContactForm } from '../components/contactForm.js'
 import LazyLoad from 'react-lazy-load';
+{/*import  Pricing  from '../containers/Pricing.js';*/}
 
 
 export default class Main extends React.Component {
@@ -28,8 +29,8 @@ export default class Main extends React.Component {
           <hr />
           <p>MoovaShaka will help you build, refine &amp; define your virtual presence</p>
           <div id="accordion" className="btn-text accordion">
-            <div className="card slide-in-left">
-              <div className="card-header" id="headingOne">
+            <div className="slide-in-left">
+              <div id="headingOne">
                   <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     <h3>fast to screen &nbsp;... <img src="img/plus.png" alt="website development"></img></h3>
                   </button>
@@ -40,10 +41,10 @@ export default class Main extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="card slide-in-left-delay2">
-              <div className="card-header" id="headingTwo">
+            <div className="slide-in-left-delay2">
+              <div id="headingTwo">
                   <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <h3>fast to develop..&nbsp;<img src="img/plus.png" alt="website development"></img></h3>
+                    <h3>fast to develop..&nbsp;<img src="img/plus.png" alt="website development preston lancs"></img></h3>
                   </button>
               </div>
               <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -54,8 +55,8 @@ export default class Main extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="card slide-in-left-delay4">
-              <div className="card-header" id="headingThree">
+            <div className="slide-in-left-delay4">
+              <div id="headingThree">
                   <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     <h3>mobile first ... &nbsp; &nbsp; &nbsp;<img src="img/plus.png" alt="website development"></img></h3>
                   </button>
@@ -85,20 +86,20 @@ export default class Main extends React.Component {
       <div className="row">
         <div className="container">
         <div className="img-responsive col-sm-4 aboutcontainer">
-        <div className="card">
+        <div>
         <LazyLoad offset={100}>
         <picture>
-        <source className="card-img-top" srcset="/img/mockwhite2.svg" type="image/svg" />
-        <img className="card-img-top" src="/img/mockwhite2.svg" alt="profitable web development" />
+        <source srcset="/img/mockwhite2.svg" type="image/svg" />
+        <img src="/img/mockwhite2.svg" alt="affordable web development" />
         </picture>
         </LazyLoad>
-        <div className="card-body">
+        <div>
         <span className="card-text">Send your design, idea, mock-up, sketch, PDF, napkin, whatever.....</span>
         </div>
         </div>
       </div>
       <div className="img-responsive col-sm-4 aboutcontainer">
-        <div className="card">
+        <div>
         <LazyLoad offset={100}>
         <picture>
         <source className="card-img-top" srcset="/img/text_editor.webp" type="image/webp" />
@@ -112,7 +113,7 @@ export default class Main extends React.Component {
         </div>
       </div>
       <div className="img-responsive col-sm-4 aboutcontainer">
-        <div className="card">
+        <div>
         <LazyLoad offset={100}>
         <picture>
         <source className="card-img-top" srcset="/img/blog.webp" type="image/webp" />
@@ -257,7 +258,8 @@ export default class Main extends React.Component {
         <hr />
         <p>We believe in gathering a full understanding of our clients, their needs
         and business ambitions. Leave your contact info and a convenient time to talk,
-        pour a coffee and together we can turn your vision into reality.
+        pour a coffee and together we can turn your vision into reality. Still not convinced?
+        &nbsp;<a href="/about">Learn more about us here.</a>
         </p>
         <LazyLoad offset={1000}>
         <picture>
@@ -270,6 +272,9 @@ export default class Main extends React.Component {
       </div>
     </div>
   </aside>
+  {/* <section>
+   <Pricing />
+   </section> */}
   <section id="contact" className="contact">
     <div className="container">
       <div className="row">
