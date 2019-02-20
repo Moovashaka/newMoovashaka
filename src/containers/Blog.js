@@ -10,26 +10,20 @@ export default withRouteData(({ posts }) => (
     <div>
       <BlogNav />
     </div>
-    <section className="blog-post container h-100 align-items-center">
-      <div className="row h-100 justify-content-center align-items-center">
-        <div className="col-sm-4">
-          <div>
-            <ul>
-              <h3>
-                {posts.map(post => (
-                  <div className="thumbcontainer img-fluid">
+    <section>
+      <div className="container">
+        <div className="col">
+            {posts.map(post => (
+                  <div className="thumbcontainer">
                     <ul>
                       <li key={post.data.slug}>
-                        <Link to={`/blog/post/${post.data.slug}`}><h3>{post.data.title}</h3></Link> {/* link to Post title */}
-                        <Link to={`/blog/post/${post.data.slug}`}><img className="img-fluid" src={post.data.thumbnail} alt="" /></Link> {/* link to Post thumbnail */}
+                        <Link to={`/blog/post/${post.data.slug}`}><h4 className="text-center">{post.data.title}</h4></Link> {/* link to Post title */}
+                        <Link to={`/blog/post/${post.data.slug}`}><img src={post.data.thumbnail} alt="" /></Link> {/* link to Post thumbnail */}
                       </li>
                     </ul>
                   </div>
               ))}
-              </h3>
-            </ul>
-          </div>
-        </div> {/* End Col */}
+          </div> {/* End Col */}
         <div className="col-sm-8">
           <h1 className="text-center">News &amp; Articles</h1>
           <hr />
@@ -56,7 +50,7 @@ export default withRouteData(({ posts }) => (
             more dynamic platform like Netlify. Your SEO will thank you for it!
           </p>
         </div>
-      </div> {/* End Row */}
+      </div> {/* End Container */}
     </section>
     <div className="clearfix">
       <Footer />

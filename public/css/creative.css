@@ -31,8 +31,6 @@ a:hover, a:focus {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-
-
 }
 
 p {
@@ -239,6 +237,11 @@ aside {
 .thumbcontainer {
   width:200px;
   height: 120px;
+  margin-left: 0;
+  padding-left: 0;
+}
+.thumbcontainer  ul {
+  list-style: none;
 }
 .thumbcontainer img {
   width: 100%;
