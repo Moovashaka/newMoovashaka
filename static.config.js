@@ -71,6 +71,14 @@ export default {
         component: 'src/containers/progressivewebapps',
       },
       {
+        path: '/Web-Design-Preston',
+        component: 'src/containers/webdesignpreston',
+      },
+      {
+        path: '/Web-Design-Liverpool',
+        component: 'src/containers/webdesignliverpool',
+      },
+      {
         path: '/blog',
         component: 'src/containers/Blog',
         getData: () => ({

@@ -9,9 +9,11 @@ import t_0 from '../../src/containers/Home'
 import t_1 from '../../src/containers/Aboutus'
 import t_2 from '../../src/containers/privacy'
 import t_3 from '../../src/containers/progressivewebapps'
-import t_4 from '../../src/containers/Blog'
-import t_5 from '../../src/containers/Post'
-import t_6 from '../../src/containers/404'
+import t_4 from '../../src/containers/webdesignpreston'
+import t_5 from '../../src/containers/webdesignliverpool'
+import t_6 from '../../src/containers/Blog'
+import t_7 from '../../src/containers/Post'
+import t_8 from '../../src/containers/404'
 
 // Template Map
 global.componentsByTemplateID = global.componentsByTemplateID || [
@@ -21,12 +23,14 @@ t_2,
 t_3,
 t_4,
 t_5,
-t_6
+t_6,
+t_7,
+t_8
 ]
 
 // Template Tree
 global.templateIDsByPath = global.templateIDsByPath || {
-  '404': 6
+  '404': 8
 }
 
 // Get template for given path
