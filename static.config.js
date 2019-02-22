@@ -67,6 +67,10 @@ export default {
         component: 'src/containers/privacy',
       },
       {
+        path: '/Progressive-WebApps',
+        component: 'src/containers/progressivewebapps',
+      },
+      {
         path: '/blog',
         component: 'src/containers/Blog',
         getData: () => ({

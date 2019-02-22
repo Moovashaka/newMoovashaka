@@ -502,6 +502,10 @@ header .header-content .header-content-inner p {
   padding-left: 0
 }
 
+.navbar-default .navbar-header .navbar-toggle {
+  display:none;
+}
+
 .btn-default {
   color: #222;
   background-color: white;

@@ -71,7 +71,7 @@ export default class Main extends React.Component {
             </div>
           </div>
           <hr />
-          <a href="#about" className="btn btn-primary btn-xl page-scroll">Find Out More</a>
+          <a href="/Progressive-WebApps" className="btn btn-primary btn-xl page-scroll">Find Out More</a>
         </div>
       </div>
   </header>
