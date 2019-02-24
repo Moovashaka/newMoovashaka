@@ -12,10 +12,10 @@ export default class Webdesignliverpool extends React.Component {
 <section>
 <div className="container">
 <h2>Welcome to MoovaShaka</h2>
-<p>Welcome to our site, if you have searched for a web designer in Preston and are now reading this page,
+<p>Welcome to our site, if you have searched for a web designer in Liverpool and are now reading this page,
 you are probably looking for someone who can take away the headache you are experiencing
 just from trying to make sense of the Web or App or even WebApp jungle. Or maybe you just need a shiny new Web Design
-for your business in and around the Preston area. Hello, we are your headache relief!
+for your business in and around Merseyside. Hello, we are your headache relief!
 contact us now at <a href="https://www.moovashaka.co.uk">moovashaka.co.uk</a> &nbsp; or read on for more info about what we do</p>
 <p>We build and deploy Progressive WebApps (PWA's), carry out Search Engine Optimisation (SEO) on customers existing
 Web Developments and provide WordPress advice, customisation and SEO.</p>
