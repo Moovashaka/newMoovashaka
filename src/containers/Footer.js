@@ -35,6 +35,10 @@ export default class Footer extends React.Component {
         <div className="col footerlinks">
         <a href="/about"><h5 className="text-muted">About Us</h5></a>
         </div>
+        <div className="col footerlinks">
+
+<a href='http://www.southport.co.uk/web-development/'><h5 className="text-muted">Southport Web Development</h5></a>
+        </div>
         </div>
         </div>
         </div>
