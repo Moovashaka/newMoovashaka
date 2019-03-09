@@ -112,7 +112,7 @@ export default {
         <Html>
           <Head>
             <meta charSet="UTF-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
             <meta name="msvalidate.01" content="52E9735EDCB03867EB7A1D46CE8F493A" />
             <meta name="description" content="MoovaShaka provides bespoke web design, Progressive WebApp sales Search Engine Optimisation Services. Content Marketing" />
             <link rel="manifest" href="/manifest.json" />
