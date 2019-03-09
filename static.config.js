@@ -79,6 +79,10 @@ export default {
         component: 'src/containers/webdesignliverpool',
       },
       {
+      path: '/Web-Design-Ormskirk',
+      component: 'src/containers/webdesignOrmskirk',
+      },
+      {
         path: '/blog',
         component: 'src/containers/Blog',
         getData: () => ({

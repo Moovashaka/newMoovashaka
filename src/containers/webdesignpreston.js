@@ -11,7 +11,7 @@ export default class Webdesignpreston extends React.Component {
       </div>
 <section>
 <div className="container">
-<h2>Welcome to MoovaShaka</h2>
+<h2>Web Design in Preston with MoovaShaka</h2>
 <p>Welcome to our site, if you have searched for a web designer in Preston and are now reading this page,
 you are probably looking for someone who can take away the headache you are experiencing
 just from trying to make sense of the Web or App or even WebApp jungle. Or maybe you just need a shiny new Web Design
