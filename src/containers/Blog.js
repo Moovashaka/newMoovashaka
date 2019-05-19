@@ -21,9 +21,9 @@ export default withRouteData(({ posts, currentPage, totalPages }) => (
                     </ul>
                   </div>
               ))}
-              <div className="text-center blogNav"><h5>Page:</h5></div>
-              <div className="text-center blogNav"><h5><Link to={`/blog/page/${ currentPage > 1 ? currentPage - 1 : currentPage }`}>{ '<<' }</Link></h5></div>
-              <div className="text-center blogNav"><h5><Link to={`/blog/page/${ currentPage == totalPages ? currentPage : currentPage + 1 }`}>{ '>>' }</Link></h5></div>
+              <div className="text-center postNav"><h5>Page:</h5></div>
+              <div className="text-center postNav"><h5><Link to={`/blog/page/${ currentPage > 1 ? currentPage - 1 : currentPage }`}>{ '<<' }</Link></h5></div>
+              <div className="text-center postNav"><h5><Link to={`/blog/page/${ currentPage == totalPages ? currentPage : currentPage + 1 }`}>{ '>>' }</Link></h5></div>
               </div> {/* End Col */}
 
         <div className="col-sm-8">
