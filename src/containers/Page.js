@@ -1,9 +1,11 @@
 import React from 'react'
-import { withRouteData, currentPage, prevPage, nextPage, totalPages, Link } from 'react-static'
+import { withRouteData, Link } from 'react-static'
 import BlogNav from './BlogNav.js'
 import Footer from './Footer.js'
 
-export default withRouteData(({ posts, currentPage, totalPages }) => (
+//
+
+export default withRouteData(({ posts }) => (
   <div>
     <div>
       <BlogNav />
@@ -15,17 +17,13 @@ export default withRouteData(({ posts, currentPage, totalPages }) => (
                   <div className="thumbcontainer">
                     <ul>
                       <li key={post.data.slug}>
-                        <Link to={`/blog/post/${post.data.slug}`}><h4 className="text-center">{post.data.title}</h4></Link> {/* link to Post title */}
-                        <Link to={`/blog/post/${post.data.slug}`}><img src={post.data.thumbnail} alt="" /></Link> {/* link to Post thumbnail */}
+                        <Link to={`/blog/page/${post.data.slug}`}><h4 className="text-center">{post.data.title}</h4></Link> {/* link to Post title */}
+                        <Link to={`/blog/page/${post.data.slug}`}><img src={post.data.thumbnail} alt="" /></Link> {/* link to Post thumbnail */}
                       </li>
                     </ul>
                   </div>
               ))}
-              <div className="text-center blogNav"><h5>Page:</h5></div>
-              <div className="text-center blogNav"><h5><Link to={`/blog/page/${ currentPage > 1 ? currentPage - 1 : currentPage }`}>{ '<<' }</Link></h5></div>
-              <div className="text-center blogNav"><h5><Link to={`/blog/page/${ currentPage == totalPages ? currentPage : currentPage + 1 }`}>{ '>>' }</Link></h5></div>
-              </div> {/* End Col */}
-
+          </div> {/* End Col */}
         <div className="col-sm-8">
           <h1 className="text-center">News &amp; Articles</h1>
           <hr />

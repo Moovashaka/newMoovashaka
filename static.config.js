@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { makePageRoutes } from 'react-static/node'
 
 const fs = require('fs')
 const klaw = require('klaw')
@@ -54,6 +55,30 @@ export default {
   getRoutes: async () => {
     const posts = await getPosts()
     return [
+      ...makePageRoutes({
+          items: posts,
+          pageSize: 5,
+          pageToken: 'page',
+          route: {
+            path: '/blog',
+            component: 'src/containers/Blog',
+          },
+          decorate: (posts, pageIndex, totalPages) => ({
+
+            getData: () => ({
+              posts,
+              currentPage: pageIndex,
+              totalPages,
+            }),
+          children: posts.map(post => ({
+          path: `/post/${post.data.slug}`,
+          component: 'src/containers/Post',
+          getData: () => ({
+            post,
+          }),
+        })),
+      }),
+    }),
       {
         path: '/',
         component: 'src/containers/Home',
@@ -81,20 +106,6 @@ export default {
       {
       path: '/Web-Design-Ormskirk',
       component: 'src/containers/webdesignOrmskirk',
-      },
-      {
-        path: '/blog',
-        component: 'src/containers/Blog',
-        getData: () => ({
-          posts,
-        }),
-        children: posts.map(post => ({
-          path: `/post/${post.data.slug}`,
-          component: 'src/containers/Post',
-          getData: () => ({
-            post,
-          }),
-        })),
       },
       {
         is404: true,
