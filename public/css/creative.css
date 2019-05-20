@@ -233,6 +233,14 @@ aside {
     display: inline-block;
     padding: 0 10px;
   }
+  .postNav {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    margin-left: 10px;
+    padding: 5px 10px;
+    z-index:1000;
+  }
 
 .thumbcontainer {
   width:200px;
