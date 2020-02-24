@@ -25,7 +25,7 @@ export default class Main extends React.Component {
   </div>
       <div className="header-content">
       <div className="header-content-inner">
-          <h1 id="homeHeading" className="animate-pop-in"> excited about WebApps?</h1>
+          <h1 id="homeHeading" className="animate-pop-in"> Digital Marketing Agency</h1>
           <hr />
           <p>MoovaShaka will help you build, refine &amp; define your virtual presence</p>
           <div id="accordion" className="btn-text accordion">
@@ -186,12 +186,12 @@ export default class Main extends React.Component {
     <div className="container-fluid">
       <div className="row no-gutter popup-gallery">
         <div className="col-lg-4 col-sm-6">
-          <a href="https://blooming-tearaways.netlify.com/" target="_blank" rel="noopener noreferrer" className="portfolio-box">
+          <a href="https://www.qtc-ltd.co.uk/" target="_blank" rel="noopener noreferrer" className="portfolio-box">
           <LazyLoad offset={500}>
           <picture>
-          <source className="img-responsive" srcset="/img/portfolio/thumbnails/bloomin.webp" type="image/webp" />
-          <source className="img-responsive" srcset="/img/portfolio/thumbnails/bloomin.jpg" type="image/jpg" />
-          <img src="img/portfolio/thumbnails/bloomin.jpg" className="img-responsive" alt="dynamic responsive web development" />
+          <source className="img-responsive" srcset="/img/portfolio/thumbnails/qtcLimited.webp" type="image/webp" />
+          <source className="img-responsive" srcset="/img/portfolio/thumbnails/qtcLimited.png" type="image/png" />
+          <img src="img/portfolio/thumbnails/qtcLimited.png" className="img-responsive" alt="dynamic responsive web development" />
           </picture>
           </LazyLoad>
             <div className="portfolio-box-caption">
@@ -200,7 +200,7 @@ export default class Main extends React.Component {
                     Brochure Site
                 </div>
                 <div className="project-name">
-                    Bloomin Tearaways
+                    QTC Limited
                 </div>
               </div>
             </div>
@@ -286,7 +286,7 @@ export default class Main extends React.Component {
         <div className="col-lg-4 col-lg-offset-2 text-center">
           <i className="fa fa-phone fa-3x sr-contact" />
           <br />
-          <a href="tel:+44-203-0123-231">+44 (203) 0123 231</a>
+          <a href="tel:+44-7971-834654">+44 (0)7971 834654</a>
         </div>
         <div className="col-lg-4 text-center">
           <i className="fa fa-envelope-o fa-3x sr-contact" />

@@ -12,7 +12,8 @@ export default class Aboutus extends React.Component {
 <section>
 <div className="container">
 <h3>Background</h3>
-<p>The internet is the worlds undisputed heavyweight marketing champion,
+<p>The internet is the worlds undisputed heavyweight marketing champion, and like Tyson Fury, has
+had its highs and lows.
 from approximately 130 web pages in 1993 to 20 billion + web pages fighting for pole position
 in the here and now. Our 10 + years experience as Web Developers, has seen some seismic changes
 to the technology stack. All that's new is not necessarily better though, and picking the winners
@@ -60,6 +61,8 @@ otherwise we might suggest ways in which you can factor this into your site.</p>
 
 <p>Get in touch, we'll take the pain out of the decision process and look forward to working
 with you.</p>
+<p>MoovaShaka, 8 Gordon Street, Southport. PR9 0BG
+</p>
 </div>
 </section>
   <Footer />
